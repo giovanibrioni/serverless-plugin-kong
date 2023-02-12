@@ -1,6 +1,6 @@
 {
-  "name": "@tropos/serverless-plugin-kong",
-  "version": "0.0.3",
+  "name": "@giovanibrioni/serverless-plugin-kong",
+  "version": "0.0.8",
   "description": "Serverless framework plugin to configure Kong.",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,22 @@
   "author": "Alois <alois@troposhq.com>",
   "license": "MIT",
   "dependencies": {
-    "@tropos/kong-admin-api-client": "^0.2.2"
+    "@giovanibrioni/kong-admin-api-client": "^0.3.2"
   },
   "devDependencies": {
     "eslint": "^5.6.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovanibrioni/serverless-plugin-kong.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giovanibrioni/serverless-plugin-kong/issues"
+  },
+  "homepage": "https://github.com/giovanibrioni/serverless-plugin-kong#readme"
 }

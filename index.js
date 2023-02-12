@@ -1,4 +1,4 @@
-const Kong = require('@tropos/kong-admin-api-client');
+const Kong = require('@giovanibrioni/kong-admin-api-client');
 
 class ServerlessPlugin {
   constructor(serverless, options) {

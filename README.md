@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-$ npm install @tropos/serverless-plugin-kong
+$ npm install @giovanibrioni/serverless-plugin-kong
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Add the plugin to `serverless.yml`
 # serverless.yml
 
 plugins:
-  - serverless-plugin-kong
+  - @giovanibrionoi/serverless-plugin-kong
 ```
 
 Add an event of type `kong` to your functions in `serverless.yml`. Configure the route with the `route` property. The `aws-lambda` plugin will be automatically configured.
