@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-$ npm install @tropos/serverless-plugin-kong
+$ npm install @giovanibrioni/serverless-plugin-kong
 ```
 
 ## Usage
